@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mentor_Name__c</fullName>
+    <label>Mentor Name</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Value does not exist or does not match filter criteria. Please check mentor list</errorMessage>
+        <filterItems>
+            <field>Mentor__c.M_Email__c</field>
+            <operation>equals</operation>
+            <value>mentor1@gmail.com</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Mentor__c</referenceTo>
+    <relationshipLabel>Students</relationshipLabel>
+    <relationshipName>Students</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
