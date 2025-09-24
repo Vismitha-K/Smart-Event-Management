@@ -1,0 +1,13 @@
+Object,Field Label,API Name,Type,Notes
+Event,Event Name,Name,Text,Record Name
+Event,Start Date,Start_Date__c,Date,Event start
+Event,End Date,End_Date__c,Date,Must be after Start Date
+Event,Venue,Venue__c,Text(255),Location of event
+Event,Capacity,Capacity__c,"Number(3,0)",Max participants
+Event,Registrations Count,Registrations_Count__c,Roll-Up (COUNT),Number of registrations
+Registration,Registration No.,Name,AutoNumber,REG-{0000}
+Registration,Event,Event__c,Master-Detail(Event),Parent event
+Registration,Participant,Participant__c,Lookup(Contact),Linked participant
+Registration,Status,Status__c,Picklist,"Registered, CheckedIn, Cancelled, Waitlisted"
+Registration,QR Code,QR_Code__c,Text(100),For check-in
+Registration,Check-in Time,Checkin_Time__c,DateTime,Attendance log
