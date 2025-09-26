@@ -72,17 +72,6 @@ It combines both **Admin** and **Developer** features of Salesforce to demonstra
 
 ---
 
-## 🎥 Demo
-
-A final demo video (<10 minutes) walks through:
-
-* Event creation
-* Participant registration
-* Automation with flows and triggers
-* Dashboards & security
-
----
-
 ## 🛠️ Tech Stack
 
 * **Platform:** Salesforce CRM
