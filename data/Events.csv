@@ -1,0 +1,3 @@
+Name,Start_Date__c,End_Date__c,Venue__c,Capacity__c,Status__c,Event_Type__c
+Gaming,10-11-2025,10-11-2025,Auditorium,200,Published,Seminar
+Programming,05-12-2025,06-12-2025,Lab Hall,150,Published,Workshop
