@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Registration Form">
+        <template if:true={selectedEventId}>
+            <p>You are registering for Event Id: {selectedEventId}</p>
+        </template>
+        <template if:false={selectedEventId}>
+            <p>Please select an Event to begin registration.</p>
+        </template>
+    </lightning-card>
+</template>

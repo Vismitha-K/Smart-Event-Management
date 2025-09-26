@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Available Events">
+        <template if:true={events}>
+            <lightning-datatable
+                key-field="id"
+                data={events}
+                columns={columns}>
+            </lightning-datatable>
+        </template>
+        <template if:true={error}>
+            <p>{error}</p>
+        </template>
+    </lightning-card>
+    <lightning-datatable
+        key-field="id"
+        data={events}
+        columns={columns}
+        onrowselection={handleRowSelection}>
+    </lightning-datatable>
+</template>
